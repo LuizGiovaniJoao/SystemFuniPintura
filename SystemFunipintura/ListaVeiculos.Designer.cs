@@ -47,6 +47,7 @@
             this.checkBox_Tipo = new System.Windows.Forms.CheckBox();
             this.checkBox_Ano = new System.Windows.Forms.CheckBox();
             this.checkBox_Cor = new System.Windows.Forms.CheckBox();
+            this.fontDialog1 = new System.Windows.Forms.FontDialog();
             this.groupBox_filtroVeiculo.SuspendLayout();
             this.groupBox_pesquisaPlaca.SuspendLayout();
             this.SuspendLayout();
@@ -256,6 +257,10 @@
             this.checkBox_Cor.Text = "Cor";
             this.checkBox_Cor.UseVisualStyleBackColor = true;
             // 
+            // fontDialog1
+            // 
+            this.fontDialog1.Color = System.Drawing.SystemColors.ControlText;
+            // 
             // ListaVeiculos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -299,5 +304,6 @@
         private System.Windows.Forms.CheckBox checkBox_Cor;
         private System.Windows.Forms.CheckBox checkBox_Ano;
         private System.Windows.Forms.CheckBox checkBox_Tipo;
+        private System.Windows.Forms.FontDialog fontDialog1;
     }
 }
