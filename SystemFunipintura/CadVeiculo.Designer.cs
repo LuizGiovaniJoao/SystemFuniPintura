@@ -147,6 +147,33 @@
             // cbx_Marca
             // 
             this.cbx_Marca.FormattingEnabled = true;
+            this.cbx_Marca.Items.AddRange(new object[] {
+            "Agrale",
+            "Alfa",
+            "Romeo",
+            "Audi",
+            "BMW",
+            "Cadillac",
+            "CBT",
+            "Chevrolet",
+            "Citroën",
+            "Dodge",
+            "Ferrari",
+            "Fiat",
+            "Ford",
+            "Honda",
+            "Hyundai",
+            "Jaguar",
+            "KIA",
+            "Lamborghini",
+            "Mazda",
+            "Mercedes Benz",
+            "Mitsubishi",
+            "Nissan",
+            "Peugeot",
+            "Renault",
+            "Toyota",
+            "Volkswagen"});
             this.cbx_Marca.Location = new System.Drawing.Point(249, 24);
             this.cbx_Marca.Name = "cbx_Marca";
             this.cbx_Marca.Size = new System.Drawing.Size(253, 21);
