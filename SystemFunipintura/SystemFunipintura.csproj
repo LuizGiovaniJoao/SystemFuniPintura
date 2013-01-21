@@ -56,6 +56,12 @@
     <Compile Include="CadCliente.Designer.cs">
       <DependentUpon>CadCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="CadPrecoPecas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadPrecoPecas.Designer.cs">
+      <DependentUpon>CadPrecoPecas.cs</DependentUpon>
+    </Compile>
     <Compile Include="CadVeiculo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CadCliente.resx">
       <DependentUpon>CadCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadPrecoPecas.resx">
+      <DependentUpon>CadPrecoPecas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CadVeiculo.resx">
       <DependentUpon>CadVeiculo.cs</DependentUpon>

@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace SystemFunipintura
 {
-    public partial class CadFuncionario : Form
+    public partial class CadPrecoPecas : Form
     {
-        public CadFuncionario()
+        public CadPrecoPecas()
         {
             InitializeComponent();
-        }
-
-        private void gbx_Endereco_Enter(object sender, EventArgs e)
-        {
-
         }
     }
 }
