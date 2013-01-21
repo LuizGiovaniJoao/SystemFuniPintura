@@ -93,6 +93,7 @@
             // 
             // cbx_Marca
             // 
+            this.cbx_Marca.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbx_Marca.FormattingEnabled = true;
             this.cbx_Marca.Items.AddRange(new object[] {
             "Agrale",

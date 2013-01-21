@@ -70,9 +70,10 @@
             // 
             // txt_Nome
             // 
-            this.txt_Nome.Location = new System.Drawing.Point(6, 35);
+            this.txt_Nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Nome.Location = new System.Drawing.Point(6, 29);
             this.txt_Nome.Name = "txt_Nome";
-            this.txt_Nome.Size = new System.Drawing.Size(841, 20);
+            this.txt_Nome.Size = new System.Drawing.Size(841, 26);
             this.txt_Nome.TabIndex = 4;
             // 
             // listView_Clientes
