@@ -20,3 +20,6 @@ F:\SystemFunipintura\SystemFunipintura\obj\Debug\SystemFunipintura.Properties.Re
 F:\SystemFunipintura\SystemFunipintura\obj\Debug\SystemFunipintura.csproj.GenerateResource.Cache
 F:\SystemFunipintura\SystemFunipintura\obj\Debug\SystemFunipintura.CadVeiculo.resources
 F:\SystemFunipintura\SystemFunipintura\obj\Debug\SystemFunipintura.ListaVeiculos.resources
+C:\SystemFuniPintura\SystemFunipintura\bin\Debug\SystemFunipintura.exe.config
+C:\SystemFuniPintura\SystemFunipintura\obj\Debug\SystemFunipintura.exe
+C:\SystemFuniPintura\SystemFunipintura\obj\Debug\SystemFunipintura.pdb
