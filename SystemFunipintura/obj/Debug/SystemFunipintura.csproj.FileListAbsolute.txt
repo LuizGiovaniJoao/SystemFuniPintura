@@ -44,3 +44,20 @@ C:\SystemFuniPintura\SystemFunipintura\obj\Debug\SystemFunipintura.ListaVeiculos
 C:\SystemFuniPintura\SystemFunipintura\obj\Debug\SystemFunipintura.Properties.Resources.resources
 C:\SystemFuniPintura\SystemFunipintura\obj\Debug\SystemFunipintura.csproj.GenerateResource.Cache
 >>>>>>> f15147c5f71b4d09b1de4998000fedd698bff2ab
+C:\puxao\SystemFuniPintura\SystemFunipintura\bin\Debug\SystemFunipintura.exe.config
+C:\puxao\SystemFuniPintura\SystemFunipintura\obj\Debug\SystemFunipintura.exe
+C:\puxao\SystemFuniPintura\SystemFunipintura\obj\Debug\SystemFunipintura.pdb
+C:\puxao\SystemFuniPintura\SystemFunipintura\bin\Debug\SystemFunipintura.exe
+C:\puxao\SystemFuniPintura\SystemFunipintura\bin\Debug\SystemFunipintura.pdb
+C:\puxao\SystemFuniPintura\SystemFunipintura\obj\Debug\SystemFunipintura.csprojResolveAssemblyReference.cache
+C:\puxao\SystemFuniPintura\SystemFunipintura\obj\Debug\SystemFunipintura.CadFuncionario.resources
+C:\puxao\SystemFuniPintura\SystemFunipintura\obj\Debug\SystemFunipintura.CadCliente.resources
+C:\puxao\SystemFuniPintura\SystemFunipintura\obj\Debug\SystemFunipintura.CadPrecoPecas.resources
+C:\puxao\SystemFuniPintura\SystemFunipintura\obj\Debug\SystemFunipintura.CadVeiculo.resources
+C:\puxao\SystemFuniPintura\SystemFunipintura\obj\Debug\SystemFunipintura.FormPrincipal.resources
+C:\puxao\SystemFuniPintura\SystemFunipintura\obj\Debug\SystemFunipintura.ListaClientes.resources
+C:\puxao\SystemFuniPintura\SystemFunipintura\obj\Debug\SystemFunipintura.ListaFuncionarios.resources
+C:\puxao\SystemFuniPintura\SystemFunipintura\obj\Debug\SystemFunipintura.ListaVeiculos.resources
+C:\puxao\SystemFuniPintura\SystemFunipintura\obj\Debug\SystemFunipintura.Ordem_de_Servico.resources
+C:\puxao\SystemFuniPintura\SystemFunipintura\obj\Debug\SystemFunipintura.Properties.Resources.resources
+C:\puxao\SystemFuniPintura\SystemFunipintura\obj\Debug\SystemFunipintura.csproj.GenerateResource.Cache
