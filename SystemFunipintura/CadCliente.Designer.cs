@@ -55,8 +55,9 @@
             this.bt_Salvar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.txt_Bairro = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -307,6 +308,13 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "ENDEREÇO";
             // 
+            // txt_Bairro
+            // 
+            this.txt_Bairro.Location = new System.Drawing.Point(6, 72);
+            this.txt_Bairro.Name = "txt_Bairro";
+            this.txt_Bairro.Size = new System.Drawing.Size(724, 20);
+            this.txt_Bairro.TabIndex = 30;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -316,18 +324,22 @@
             this.label1.TabIndex = 31;
             this.label1.Text = "Bairro";
             // 
-            // txt_Bairro
+            // button1
             // 
-            this.txt_Bairro.Location = new System.Drawing.Point(6, 72);
-            this.txt_Bairro.Name = "txt_Bairro";
-            this.txt_Bairro.Size = new System.Drawing.Size(724, 20);
-            this.txt_Bairro.TabIndex = 30;
+            this.button1.Location = new System.Drawing.Point(327, 362);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(179, 23);
+            this.button1.TabIndex = 30;
+            this.button1.Text = "João Acessa Form ListaClientes";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // CadCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(761, 470);
+            this.ClientSize = new System.Drawing.Size(761, 391);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.bt_Salvar);
             this.Controls.Add(this.bt_Gravar);
             this.Controls.Add(this.bt_Limpar);
@@ -379,6 +391,7 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox txt_Bairro;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
