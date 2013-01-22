@@ -20,3 +20,8 @@ F:\SystemFunipintura\SystemFunipintura\obj\Debug\SystemFunipintura.Properties.Re
 F:\SystemFunipintura\SystemFunipintura\obj\Debug\SystemFunipintura.csproj.GenerateResource.Cache
 F:\SystemFunipintura\SystemFunipintura\obj\Debug\SystemFunipintura.CadVeiculo.resources
 F:\SystemFunipintura\SystemFunipintura\obj\Debug\SystemFunipintura.ListaVeiculos.resources
+F:\SystemFunipintura\SystemFunipintura\obj\Debug\SystemFunipintura.CadPrecoPecas.resources
+F:\SystemFunipintura\SystemFunipintura\obj\Debug\SystemFunipintura.FormPrincipal.resources
+F:\SystemFunipintura\SystemFunipintura\obj\Debug\SystemFunipintura.ListaClientes.resources
+F:\SystemFunipintura\SystemFunipintura\obj\Debug\SystemFunipintura.ListaFuncionarios.resources
+F:\SystemFunipintura\SystemFunipintura\obj\Debug\SystemFunipintura.Ordem_de_Servico.resources

@@ -30,8 +30,8 @@
         {
             this.txt_CpfCnpj = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txt_Nome = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.listView_Clientes = new System.Windows.Forms.ListView();
             this.bt_Remover = new System.Windows.Forms.Button();
             this.bt_Alterar = new System.Windows.Forms.Button();
@@ -58,6 +58,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "NOME";
             // 
+            // txt_Nome
+            // 
+            this.txt_Nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Nome.Location = new System.Drawing.Point(6, 29);
+            this.txt_Nome.Name = "txt_Nome";
+            this.txt_Nome.Size = new System.Drawing.Size(841, 26);
+            this.txt_Nome.TabIndex = 4;
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.txt_CpfCnpj);
@@ -67,14 +75,6 @@
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "CPF/CNPJ";
-            // 
-            // txt_Nome
-            // 
-            this.txt_Nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Nome.Location = new System.Drawing.Point(6, 29);
-            this.txt_Nome.Name = "txt_Nome";
-            this.txt_Nome.Size = new System.Drawing.Size(841, 26);
-            this.txt_Nome.TabIndex = 4;
             // 
             // listView_Clientes
             // 

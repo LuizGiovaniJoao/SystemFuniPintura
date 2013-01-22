@@ -65,14 +65,14 @@
             // 
             this.txt_Nome.Location = new System.Drawing.Point(6, 32);
             this.txt_Nome.Name = "txt_Nome";
-            this.txt_Nome.Size = new System.Drawing.Size(619, 20);
+            this.txt_Nome.Size = new System.Drawing.Size(590, 20);
             this.txt_Nome.TabIndex = 0;
             // 
             // txt_CpfCnpj
             // 
-            this.txt_CpfCnpj.Location = new System.Drawing.Point(631, 32);
+            this.txt_CpfCnpj.Location = new System.Drawing.Point(602, 32);
             this.txt_CpfCnpj.Name = "txt_CpfCnpj";
-            this.txt_CpfCnpj.Size = new System.Drawing.Size(100, 20);
+            this.txt_CpfCnpj.Size = new System.Drawing.Size(129, 20);
             this.txt_CpfCnpj.TabIndex = 1;
             // 
             // txt_Rua
@@ -101,14 +101,14 @@
             this.Label_Nome.AutoSize = true;
             this.Label_Nome.Location = new System.Drawing.Point(6, 16);
             this.Label_Nome.Name = "Label_Nome";
-            this.Label_Nome.Size = new System.Drawing.Size(35, 13);
+            this.Label_Nome.Size = new System.Drawing.Size(82, 13);
             this.Label_Nome.TabIndex = 8;
-            this.Label_Nome.Text = "Nome";
+            this.Label_Nome.Text = "Nome Completo";
             // 
             // label_CpfCnpj
             // 
             this.label_CpfCnpj.AutoSize = true;
-            this.label_CpfCnpj.Location = new System.Drawing.Point(628, 16);
+            this.label_CpfCnpj.Location = new System.Drawing.Point(599, 16);
             this.label_CpfCnpj.Name = "label_CpfCnpj";
             this.label_CpfCnpj.Size = new System.Drawing.Size(59, 13);
             this.label_CpfCnpj.TabIndex = 9;
@@ -152,6 +152,7 @@
             // 
             // cbx_UF
             // 
+            this.cbx_UF.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbx_UF.FormattingEnabled = true;
             this.cbx_UF.Location = new System.Drawing.Point(6, 150);
             this.cbx_UF.Name = "cbx_UF";
@@ -160,6 +161,7 @@
             // 
             // cbx_Cidade
             // 
+            this.cbx_Cidade.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbx_Cidade.FormattingEnabled = true;
             this.cbx_Cidade.Location = new System.Drawing.Point(56, 150);
             this.cbx_Cidade.Name = "cbx_Cidade";
@@ -237,12 +239,12 @@
             this.txt_Observacao.Location = new System.Drawing.Point(6, 190);
             this.txt_Observacao.Multiline = true;
             this.txt_Observacao.Name = "txt_Observacao";
-            this.txt_Observacao.Size = new System.Drawing.Size(725, 79);
+            this.txt_Observacao.Size = new System.Drawing.Size(725, 157);
             this.txt_Observacao.TabIndex = 24;
             // 
             // bt_Limpar
             // 
-            this.bt_Limpar.Location = new System.Drawing.Point(512, 361);
+            this.bt_Limpar.Location = new System.Drawing.Point(512, 435);
             this.bt_Limpar.Name = "bt_Limpar";
             this.bt_Limpar.Size = new System.Drawing.Size(75, 23);
             this.bt_Limpar.TabIndex = 25;
@@ -251,7 +253,7 @@
             // 
             // bt_Gravar
             // 
-            this.bt_Gravar.Location = new System.Drawing.Point(593, 361);
+            this.bt_Gravar.Location = new System.Drawing.Point(593, 435);
             this.bt_Gravar.Name = "bt_Gravar";
             this.bt_Gravar.Size = new System.Drawing.Size(75, 23);
             this.bt_Gravar.TabIndex = 26;
@@ -260,7 +262,7 @@
             // 
             // bt_Salvar
             // 
-            this.bt_Salvar.Location = new System.Drawing.Point(674, 361);
+            this.bt_Salvar.Location = new System.Drawing.Point(674, 435);
             this.bt_Salvar.Name = "bt_Salvar";
             this.bt_Salvar.Size = new System.Drawing.Size(75, 23);
             this.bt_Salvar.TabIndex = 27;
@@ -300,10 +302,10 @@
             this.groupBox2.Controls.Add(this.cbx_UF);
             this.groupBox2.Location = new System.Drawing.Point(13, 76);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(736, 280);
+            this.groupBox2.Size = new System.Drawing.Size(736, 353);
             this.groupBox2.TabIndex = 29;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Endereço";
+            this.groupBox2.Text = "ENDEREÇO";
             // 
             // label1
             // 
@@ -325,7 +327,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(761, 391);
+            this.ClientSize = new System.Drawing.Size(761, 470);
             this.Controls.Add(this.bt_Salvar);
             this.Controls.Add(this.bt_Gravar);
             this.Controls.Add(this.bt_Limpar);

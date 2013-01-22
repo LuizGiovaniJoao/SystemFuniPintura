@@ -197,10 +197,10 @@
             this.gbx_Endereco.Location = new System.Drawing.Point(12, 124);
             this.gbx_Endereco.Name = "gbx_Endereco";
             this.gbx_Endereco.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.gbx_Endereco.Size = new System.Drawing.Size(569, 291);
+            this.gbx_Endereco.Size = new System.Drawing.Size(569, 331);
             this.gbx_Endereco.TabIndex = 13;
             this.gbx_Endereco.TabStop = false;
-            this.gbx_Endereco.Text = "Endereço";
+            this.gbx_Endereco.Text = "ENDEREÇO";
             this.gbx_Endereco.Enter += new System.EventHandler(this.gbx_Endereco_Enter);
             // 
             // label1_Obs
@@ -295,7 +295,7 @@
             this.txt_Observacao.Location = new System.Drawing.Point(6, 189);
             this.txt_Observacao.Multiline = true;
             this.txt_Observacao.Name = "txt_Observacao";
-            this.txt_Observacao.Size = new System.Drawing.Size(557, 83);
+            this.txt_Observacao.Size = new System.Drawing.Size(557, 136);
             this.txt_Observacao.TabIndex = 16;
             // 
             // txt_Email
@@ -341,7 +341,7 @@
             // 
             // bt_Limpar
             // 
-            this.bt_Limpar.Location = new System.Drawing.Point(344, 421);
+            this.bt_Limpar.Location = new System.Drawing.Point(346, 461);
             this.bt_Limpar.Name = "bt_Limpar";
             this.bt_Limpar.Size = new System.Drawing.Size(75, 23);
             this.bt_Limpar.TabIndex = 15;
@@ -350,7 +350,7 @@
             // 
             // bt_Gravar
             // 
-            this.bt_Gravar.Location = new System.Drawing.Point(425, 421);
+            this.bt_Gravar.Location = new System.Drawing.Point(427, 461);
             this.bt_Gravar.Name = "bt_Gravar";
             this.bt_Gravar.Size = new System.Drawing.Size(75, 23);
             this.bt_Gravar.TabIndex = 16;
@@ -359,7 +359,7 @@
             // 
             // bt_Salvar
             // 
-            this.bt_Salvar.Location = new System.Drawing.Point(506, 421);
+            this.bt_Salvar.Location = new System.Drawing.Point(508, 461);
             this.bt_Salvar.Name = "bt_Salvar";
             this.bt_Salvar.Size = new System.Drawing.Size(75, 23);
             this.bt_Salvar.TabIndex = 17;
@@ -386,7 +386,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(595, 450);
+            this.ClientSize = new System.Drawing.Size(595, 496);
             this.Controls.Add(this.bt_Salvar);
             this.Controls.Add(this.bt_Gravar);
             this.Controls.Add(this.gbx_Endereco);

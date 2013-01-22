@@ -16,7 +16,7 @@ namespace SystemFunipintura
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CadCliente());
+            Application.Run(new FormPrincipal());
         }
     }
 }

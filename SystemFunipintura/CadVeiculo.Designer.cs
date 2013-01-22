@@ -45,12 +45,15 @@
             this.bt_Limpar = new System.Windows.Forms.Button();
             this.bt_Gravar = new System.Windows.Forms.Button();
             this.bt_Cadastrar = new System.Windows.Forms.Button();
+            this.txt_Proprietario = new System.Windows.Forms.TextBox();
+            this.bt_Pesquisar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txt_Placa
             // 
             this.txt_Placa.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.txt_Placa.Location = new System.Drawing.Point(12, 25);
+            this.txt_Placa.Location = new System.Drawing.Point(12, 64);
             this.txt_Placa.Name = "txt_Placa";
             this.txt_Placa.Size = new System.Drawing.Size(89, 20);
             this.txt_Placa.TabIndex = 0;
@@ -58,38 +61,38 @@
             // 
             // txt_Tipo
             // 
-            this.txt_Tipo.Location = new System.Drawing.Point(12, 64);
+            this.txt_Tipo.Location = new System.Drawing.Point(12, 103);
             this.txt_Tipo.Name = "txt_Tipo";
             this.txt_Tipo.Size = new System.Drawing.Size(490, 20);
             this.txt_Tipo.TabIndex = 1;
             // 
             // txt_Chassis
             // 
-            this.txt_Chassis.Location = new System.Drawing.Point(107, 25);
+            this.txt_Chassis.Location = new System.Drawing.Point(107, 64);
             this.txt_Chassis.Name = "txt_Chassis";
             this.txt_Chassis.Size = new System.Drawing.Size(136, 20);
             this.txt_Chassis.TabIndex = 2;
             // 
             // txt_Ano
             // 
-            this.txt_Ano.Location = new System.Drawing.Point(12, 103);
+            this.txt_Ano.Location = new System.Drawing.Point(12, 142);
             this.txt_Ano.Name = "txt_Ano";
             this.txt_Ano.Size = new System.Drawing.Size(53, 20);
             this.txt_Ano.TabIndex = 3;
             // 
             // txt_OBS
             // 
-            this.txt_OBS.Location = new System.Drawing.Point(12, 142);
+            this.txt_OBS.Location = new System.Drawing.Point(12, 181);
             this.txt_OBS.Multiline = true;
             this.txt_OBS.Name = "txt_OBS";
-            this.txt_OBS.Size = new System.Drawing.Size(490, 79);
+            this.txt_OBS.Size = new System.Drawing.Size(490, 151);
             this.txt_OBS.TabIndex = 4;
             // 
             // label_Placa
             // 
             this.label_Placa.AutoSize = true;
             this.label_Placa.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.label_Placa.Location = new System.Drawing.Point(9, 9);
+            this.label_Placa.Location = new System.Drawing.Point(9, 48);
             this.label_Placa.Name = "label_Placa";
             this.label_Placa.Size = new System.Drawing.Size(34, 13);
             this.label_Placa.TabIndex = 6;
@@ -98,7 +101,7 @@
             // label_Tipo
             // 
             this.label_Tipo.AutoSize = true;
-            this.label_Tipo.Location = new System.Drawing.Point(9, 48);
+            this.label_Tipo.Location = new System.Drawing.Point(9, 87);
             this.label_Tipo.Name = "label_Tipo";
             this.label_Tipo.Size = new System.Drawing.Size(28, 13);
             this.label_Tipo.TabIndex = 7;
@@ -108,7 +111,7 @@
             // 
             this.label_Chassis.AutoSize = true;
             this.label_Chassis.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.label_Chassis.Location = new System.Drawing.Point(104, 9);
+            this.label_Chassis.Location = new System.Drawing.Point(104, 48);
             this.label_Chassis.Name = "label_Chassis";
             this.label_Chassis.Size = new System.Drawing.Size(43, 13);
             this.label_Chassis.TabIndex = 8;
@@ -117,7 +120,7 @@
             // label_Ano
             // 
             this.label_Ano.AutoSize = true;
-            this.label_Ano.Location = new System.Drawing.Point(9, 87);
+            this.label_Ano.Location = new System.Drawing.Point(9, 126);
             this.label_Ano.Name = "label_Ano";
             this.label_Ano.Size = new System.Drawing.Size(26, 13);
             this.label_Ano.TabIndex = 9;
@@ -127,7 +130,7 @@
             // label_OBS
             // 
             this.label_OBS.AutoSize = true;
-            this.label_OBS.Location = new System.Drawing.Point(11, 126);
+            this.label_OBS.Location = new System.Drawing.Point(9, 165);
             this.label_OBS.Name = "label_OBS";
             this.label_OBS.Size = new System.Drawing.Size(32, 13);
             this.label_OBS.TabIndex = 10;
@@ -137,7 +140,7 @@
             // 
             this.label8_Marca.AutoSize = true;
             this.label8_Marca.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.label8_Marca.Location = new System.Drawing.Point(246, 8);
+            this.label8_Marca.Location = new System.Drawing.Point(246, 47);
             this.label8_Marca.Name = "label8_Marca";
             this.label8_Marca.Size = new System.Drawing.Size(37, 13);
             this.label8_Marca.TabIndex = 13;
@@ -146,6 +149,7 @@
             // 
             // cbx_Marca
             // 
+            this.cbx_Marca.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbx_Marca.FormattingEnabled = true;
             this.cbx_Marca.Items.AddRange(new object[] {
             "Agrale",
@@ -174,7 +178,7 @@
             "Renault",
             "Toyota",
             "Volkswagen"});
-            this.cbx_Marca.Location = new System.Drawing.Point(249, 24);
+            this.cbx_Marca.Location = new System.Drawing.Point(249, 63);
             this.cbx_Marca.Name = "cbx_Marca";
             this.cbx_Marca.Size = new System.Drawing.Size(253, 21);
             this.cbx_Marca.TabIndex = 14;
@@ -183,7 +187,7 @@
             // label_Cor
             // 
             this.label_Cor.AutoSize = true;
-            this.label_Cor.Location = new System.Drawing.Point(69, 87);
+            this.label_Cor.Location = new System.Drawing.Point(69, 126);
             this.label_Cor.Name = "label_Cor";
             this.label_Cor.Size = new System.Drawing.Size(23, 13);
             this.label_Cor.TabIndex = 15;
@@ -191,14 +195,14 @@
             // 
             // txt_Cor
             // 
-            this.txt_Cor.Location = new System.Drawing.Point(71, 103);
+            this.txt_Cor.Location = new System.Drawing.Point(71, 142);
             this.txt_Cor.Name = "txt_Cor";
             this.txt_Cor.Size = new System.Drawing.Size(431, 20);
             this.txt_Cor.TabIndex = 16;
             // 
             // bt_Limpar
             // 
-            this.bt_Limpar.Location = new System.Drawing.Point(265, 227);
+            this.bt_Limpar.Location = new System.Drawing.Point(265, 338);
             this.bt_Limpar.Name = "bt_Limpar";
             this.bt_Limpar.Size = new System.Drawing.Size(75, 23);
             this.bt_Limpar.TabIndex = 17;
@@ -207,7 +211,7 @@
             // 
             // bt_Gravar
             // 
-            this.bt_Gravar.Location = new System.Drawing.Point(346, 227);
+            this.bt_Gravar.Location = new System.Drawing.Point(346, 338);
             this.bt_Gravar.Name = "bt_Gravar";
             this.bt_Gravar.Size = new System.Drawing.Size(75, 23);
             this.bt_Gravar.TabIndex = 18;
@@ -216,18 +220,48 @@
             // 
             // bt_Cadastrar
             // 
-            this.bt_Cadastrar.Location = new System.Drawing.Point(427, 227);
+            this.bt_Cadastrar.Location = new System.Drawing.Point(427, 338);
             this.bt_Cadastrar.Name = "bt_Cadastrar";
             this.bt_Cadastrar.Size = new System.Drawing.Size(75, 23);
             this.bt_Cadastrar.TabIndex = 19;
             this.bt_Cadastrar.Text = "Cadastrar";
             this.bt_Cadastrar.UseVisualStyleBackColor = true;
             // 
+            // txt_Proprietario
+            // 
+            this.txt_Proprietario.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.txt_Proprietario.Location = new System.Drawing.Point(12, 25);
+            this.txt_Proprietario.Name = "txt_Proprietario";
+            this.txt_Proprietario.Size = new System.Drawing.Size(409, 20);
+            this.txt_Proprietario.TabIndex = 20;
+            // 
+            // bt_Pesquisar
+            // 
+            this.bt_Pesquisar.Location = new System.Drawing.Point(427, 23);
+            this.bt_Pesquisar.Name = "bt_Pesquisar";
+            this.bt_Pesquisar.Size = new System.Drawing.Size(75, 23);
+            this.bt_Pesquisar.TabIndex = 21;
+            this.bt_Pesquisar.Text = "Pesquisar";
+            this.bt_Pesquisar.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.label1.Location = new System.Drawing.Point(9, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(60, 13);
+            this.label1.TabIndex = 22;
+            this.label1.Text = "Propriétário";
+            // 
             // CadVeiculo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(514, 258);
+            this.ClientSize = new System.Drawing.Size(514, 373);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.bt_Pesquisar);
+            this.Controls.Add(this.txt_Proprietario);
             this.Controls.Add(this.bt_Cadastrar);
             this.Controls.Add(this.bt_Gravar);
             this.Controls.Add(this.bt_Limpar);
@@ -271,5 +305,8 @@
         private System.Windows.Forms.Button bt_Limpar;
         private System.Windows.Forms.Button bt_Gravar;
         private System.Windows.Forms.Button bt_Cadastrar;
+        private System.Windows.Forms.TextBox txt_Proprietario;
+        private System.Windows.Forms.Button bt_Pesquisar;
+        private System.Windows.Forms.Label label1;
     }
 }
